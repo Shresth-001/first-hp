@@ -4,3 +4,6 @@ for(let i=1;i<100;i++){
 for (let j=0;j<10;j++){
   print("Kumar")
 }
+var json=require("./testIgnore/config.json")
+console.log(json.name)
+console.log(json.password)
