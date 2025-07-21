@@ -7,3 +7,4 @@ for (let j=0;j<10;j++){
 var json=require("./testIgnore/config.json")
 console.log(json.name)
 console.log(json.password)
+console.log("This will cause conflit");
