@@ -1,9 +1,15 @@
-for(let i=1;i<100;i++){
+for (let i = 1; i < 100; i++) {
   print("shresth");
 }
-for (let j=0;j<10;j++){
-  print("Kumar")
+for (let j = 0; j < 10; j++) {
+  print("Kumar");
 }
-var json=require("./testIgnore/config.json")
-console.log(json.name)
-console.log(json.password)
+var json = require("./testIgnore/config.json");
+console.log(json.name);
+console.log(json.password);
+console.log("This will cause conflit");
+
+console.log("Hello world");
+for (let i = 10; i >= 0; i--) {
+  print("Hello world");
+}
