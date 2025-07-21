@@ -7,5 +7,7 @@ for (let j = 0; j < 10; j++) {
 var json = require("./testIgnore/config.json");
 console.log(json.name);
 console.log(json.password);
-
+for (let i=0;i<100;i++){
+  print("Hello world")
+}
 
