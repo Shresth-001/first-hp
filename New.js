@@ -10,4 +10,8 @@ console.log(json.password);
 for (let i=0;i<100;i++){
   print("Hello world")
 }
+function reverseString(str){
+  return str.split("").reverse.join("");
+}
 
+console.log(reverseString(java));
